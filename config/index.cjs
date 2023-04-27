@@ -15,15 +15,58 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'dc6fcc5d533608b1e7ffbdfcc164cb92',
 
+  SWITCH: {
+    /** 每日天气 */
+    weather: true,
+
+    /** 节假日 */
+    holidaytts: true,
+
+    /** 每日N句 */
+    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    CIBA: false,
+    
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: false,
+    
+    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: true,
+    
+    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    momentCopyrighting: false,
+    
+    // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poisonChickenSoup: false,
+    
+    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poetry: false,
+
+    /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: true,
+  
+    /** 生日消息和节日消息 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    birthdayMessage: true,
+  
+    /** 学生课表 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    courseSchedule: false,
+  },
+  
+  /** 是否给文字设置多彩颜色, 和emoji不兼容 */
+  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
+  IS_SHOW_COLOR: false,
+  
   PROVINCE: '四川',
   CITY: '成都',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '瑶瑶',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oBZrn6BD9jHPdjbzWEb0ikoBmv3c',
+      id: 'oBZrn6FZdUMs5j-HeqsFRZm46IaA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'BvvQdp9xNY9_BhOCgdrP69ArrAdumTynVhzkJ24oi4A',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
