@@ -31,15 +31,12 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '宝贝', year: '2001', date: '08-27',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相恋纪念日', year: '2022', date: '03-17',
         },
+        
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
@@ -53,7 +50,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '	JwTW9eckirOpS1YL8o6hQtsKvwY5ZYz-1Ti6GoRPxL8',
+  CALLBACK_TEMPLATE_ID: 'JwTW9eckirOpS1YL8o6hQtsKvwY5ZYz-1Ti6GoRPxL8',
 
   CALLBACK_USERS: [
     {
